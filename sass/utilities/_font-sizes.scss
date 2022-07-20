@@ -3,5 +3,6 @@
 @each $size-name, $size-value in $font-sizes {
   .fs-#{$size-name} {
     font-size: $size-value;
+    line-height: 1.3;
   }
 }
