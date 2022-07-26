@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+
+.primary-header {
+  padding-top: size(700);
+}
+
+.primary-header[data-overlay]::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: linear-gradient(rgb(0 0 0 / 0), rgb(0 0 0 / 0.8));
+}
